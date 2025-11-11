@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,34 +11,64 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  
+
   <style>
     body {
       font-family: 'Poppins', sans-serif;
       /* Skilline background color */
-      background-color: #FFF2E1; 
+      background-color: #FFF2E1;
     }
-    /* Custom Skilline Colors */
-    .bg-brand-yellow { background-color: #F48C06; }
-    .text-brand-yellow { color: #F48C06; }
-    .text-brand-blue { color: #2F327D; }
-    .bg-brand-cream { background-color: #FFF2E1; }
-    .border-brand-yellow { border-color: #F48C06; }
+
+    /* --- ĐÃ CẬP NHẬT MÀU SẮC TẠI ĐÂY --- */
+    .bg-brand-yellow {
+      background-color: #FF678B;
+    }
+
+    /* Đã đổi thành màu mới */
+    .text-brand-yellow {
+      color: #FF678B;
+    }
+
+    /* Đã đổi thành màu mới */
+    .border-brand-yellow {
+      border-color: #FF678B;
+    }
+
+    /* Đã đổi thành màu mới */
+    /* ------------------------------------- */
+
+    .text-brand-blue {
+      color: #2F327D;
+    }
+
+    .bg-brand-cream {
+      background-color: #FFF2E1;
+    }
 
     /* Floating Animation */
-    .floating { 
-      animation-name: floating; 
-      animation-duration: 3s; 
-      animation-iteration-count: infinite; 
+    .floating {
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
       animation-timing-function: ease-in-out;
-    } 
-    @keyframes floating { 
-      0% { transform: translate(0, 0px); } 
-      50% { transform: translate(0, 8px); } 
-      100% { transform: translate(0, -0px); }  
-    } 
+    }
+
+    @keyframes floating {
+      0% {
+        transform: translate(0, 0px);
+      }
+
+      50% {
+        transform: translate(0, 8px);
+      }
+
+      100% {
+        transform: translate(0, -0px);
+      }
+    }
   </style>
 </head>
+
 <body class="text-gray-900">
   <header class="bg-brand-yellow text-white text-center py-12 shadow-lg">
     <h1 class="text-5xl font-bold floating">ViVuDi</h1>
@@ -48,20 +79,31 @@
     <section class="p-8 bg-white rounded-xl shadow-lg" data-aos="fade-up">
       <h2 class="text-3xl font-bold text-brand-blue mb-5">📘 Tổng Quan Dự Án</h2>
       <div class="space-y-3 text-gray-800">
-        <p><strong>ViVuDi</strong> là một ứng dụng mạng xã hội di động dành cho những người đam mê du lịch để kết nối, khám phá và chia sẻ những trải nghiệm du lịch chân thực. Nền tảng cho phép người dùng đăng ảnh, video và câu chuyện du lịch, tạo ra một cộng đồng sôi động tập trung vào khám phá và văn hóa.</p>
-        <p>Sứ mệnh cốt lõi của ViVuDi là thúc đẩy các kết nối ý nghĩa giữa các du khách, đồng thời quảng bá du lịch địa phương một cách bền vững và theo định hướng cộng đồng. Người dùng có thể chia sẻ ấn tượng thời gian thực về các điểm đến, khám phá những địa điểm ẩn giấu và tương tác với các nhà thám hiểm đồng nghiệp trên toàn quốc.</p>
-        <p>Bằng cách kết nối du khách, người dân địa phương và doanh nghiệp du lịch, ViVuDi tạo ra một hệ sinh thái hợp tác thúc đẩy du lịch bền vững — lấy cảm hứng từ tính xác thực, sáng tạo và niềm đam mê chung để khám phá.</p>
+        <p><strong>ViVuDi</strong> là một ứng dụng mạng xã hội di động dành cho những người đam mê du lịch để kết nối,
+          khám phá và chia sẻ những trải nghiệm du lịch chân thực. Nền tảng cho phép người dùng đăng ảnh, video và câu
+          chuyện du lịch, tạo ra một cộng đồng sôi động tập trung vào khám phá và văn hóa.</p>
+        <p>Sứ mệnh cốt lõi của ViVuDi là thúc đẩy các kết nối ý nghĩa giữa các du khách, đồng thời quảng bá du lịch địa
+          phương một cách bền vững và theo định hướng cộng đồng. Người dùng có thể chia sẻ ấn tượng thời gian thực về
+          các điểm đến, khám phá những địa điểm ẩn giấu và tương tác với các nhà thám hiểm đồng nghiệp trên toàn quốc.
+        </p>
+        <p>Bằng cách kết nối du khách, người dân địa phương và doanh nghiệp du lịch, ViVuDi tạo ra một hệ sinh thái hợp
+          tác thúc đẩy du lịch bền vững — lấy cảm hứng từ tính xác thực, sáng tạo và niềm đam mê chung để khám phá.</p>
       </div>
     </section>
 
     <section class="p-8 bg-white mt-8 rounded-xl shadow-lg" data-aos="fade-up">
       <h2 class="text-3xl font-bold text-brand-blue mb-5">🎯 Vấn Đề & Cơ Hội</h2>
       <ul class="list-disc list-inside space-y-2 text-gray-800">
-        <li><strong>Nội dung xác thực theo thời gian thực:</strong> Hệ thống của ViVuDi chỉ cho phép người dùng có mặt thực tế tại địa điểm đăng bài, đảm bảo thông tin chân thực, cập nhật.</li>
-        <li><strong>Trao quyền cho cộng đồng địa phương:</strong> Thưởng cho người dân địa phương khi đóng góp câu chuyện, hình ảnh về quê hương của họ — biến họ thành Đại sứ Du lịch Cộng đồng.</li>
-        <li><strong>Kết nối giá trị xã hội & thương mại:</strong> Tích hợp kể chuyện du lịch với các ưu đãi và voucher địa phương, kết nối khám phá với hành động kinh tế thực tế.</li>
-        <li><strong>Cộng đồng du lịch chuyên biệt:</strong> Tập trung hoàn toàn vào du lịch — cung cấp một nền tảng ưu tiên trải nghiệm để khám phá và chia sẻ văn hóa.</li>
-        <li><strong>Thiết kế có trách nhiệm:</strong> Cân bằng tính xác thực và quyền riêng tư bằng cách triển khai các tính năng vị trí minh bạch, có chọn lọc với bảo vệ dữ liệu nghiêm ngặt.</li>
+        <li><strong>Nội dung xác thực theo thời gian thực:</strong> Hệ thống của ViVuDi chỉ cho phép người dùng có mặt
+          thực tế tại địa điểm đăng bài, đảm bảo thông tin chân thực, cập nhật.</li>
+        <li><strong>Trao quyền cho cộng đồng địa phương:</strong> Thưởng cho người dân địa phương khi đóng góp câu
+          chuyện, hình ảnh về quê hương của họ — biến họ thành Đại sứ Du lịch Cộng đồng.</li>
+        <li><strong>Kết nối giá trị xã hội & thương mại:</strong> Tích hợp kể chuyện du lịch với các ưu đãi và voucher
+          địa phương, kết nối khám phá với hành động kinh tế thực tế.</li>
+        <li><strong>Cộng đồng du lịch chuyên biệt:</strong> Tập trung hoàn toàn vào du lịch — cung cấp một nền tảng ưu
+          tiên trải nghiệm để khám phá và chia sẻ văn hóa.</li>
+        <li><strong>Thiết kế có trách nhiệm:</strong> Cân bằng tính xác thực và quyền riêng tư bằng cách triển khai các
+          tính năng vị trí minh bạch, có chọn lọc với bảo vệ dữ liệu nghiêm ngặt.</li>
       </ul>
     </section>
 
@@ -87,6 +129,37 @@
         <li>Đăng nhập / Đăng xuất (Login / Logout)</li>
         <li>Nút gợi ý ngẫu nhiên hàng ngày (Daily Random Suggestion Button)</li>
       </ul>
+    </section>
+    <section class="p-8 bg-white mt-8 rounded-xl shadow-lg" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-brand-blue mb-5">⚙️ Công Nghệ Sử Dụng</h2>
+      <div class="overflow-x-auto rounded-lg border border-gray-200">
+        <table class="min-w-full text-left text-sm">
+          <thead class="bg-brand-cream border-b border-gray-200">
+            <tr>
+              <th class="py-3 px-5 font-bold text-brand-blue">Công Nghệ</th>
+              <th class="py-3 px-5 font-bold text-brand-blue">Mô Tả</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-5 font-medium"> TypeScript - NestJs</td>
+              <td class="py-3 px-5">Xây dựng backend, xử lý logic</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <t class="py-3 px-5 font-medium"> MySQL</t>
+              <td class="py-3 px-5">Cơ sở dữ liệu chính</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-5 font-medium"> React Native </td>
+              <td class="py-3 px-5">Xây dựng giao diện người dùng</td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-3 px-5 font-medium"> EAS EXPO </td>
+              <td class="py-3 px-5">Triển khai môi trường linh hoạt</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section class="p-8 bg-white mt-8 rounded-xl shadow-lg" data-aos="fade-up">
@@ -138,4 +211,5 @@
     });
   </script>
 </body>
+
 </html>
